@@ -1,0 +1,42 @@
+{
+  "name": "panels",
+  "version": "1.0.0",
+  "description": "A multi panel boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishnanKamatchi/panels.git"
+  },
+  "author": "Krishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrishnanKamatchi/panels/issues"
+  },
+  "homepage": "https://github.com/KrishnanKamatchi/panels#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  }
+}
